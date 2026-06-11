@@ -1,4 +1,4 @@
-# Hola, soy Adri
+# Hola, soy Adri 👋
 
 Desarrollo herramientas de IA aplicadas a problemas concretos: agentes con herramientas, asistentes RAG, APIs locales, procesamiento de documentos, observabilidad y automatizacion. Me gusta construir proyectos que se puedan probar de punta a punta: interfaz, backend, logs, tests y una documentacion que explique bien como levantarlo.
 
@@ -9,9 +9,9 @@ Desarrollo herramientas de IA aplicadas a problemas concretos: agentes con herra
 ![OpenAI Compatible](https://img.shields.io/badge/OpenAI--compatible-111111?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-2563EB?style=flat-square)
 
-## Proyectos en GitHub
+## Proyectos en GitHub 🚀
 
-### [LLM Agent Workbench](https://github.com/Adri211x/llm-agent-workbench)
+### 🧠 [LLM Agent Workbench](https://github.com/Adri211x/llm-agent-workbench)
 
 Workbench local para trabajar con LLMs mediante una API con agente, tool calling, subida de PDFs, monitor de logs en tiempo real y pruebas automatizadas.
 
@@ -21,14 +21,12 @@ Permite conversar con un agente local conectado a herramientas reales: calculado
 
 **Puntos fuertes**
 
-- API principal con `FastAPI` y documentacion en `/docs`.
-- Agente con bucle de tool calling de hasta 10 iteraciones por peticion.
-- Subida y lectura de PDFs desde la interfaz web.
-- Monitor de logs separado en tiempo real con WebSocket, filtros, busqueda y limpieza.
-- Cliente LLM unificado usando el SDK de OpenAI contra endpoints compatibles.
-- Recuperacion automatica de formatos de tool calling de Groq.
-- Rate limiting, autenticacion opcional por API key y manejo de errores.
-- Suite de tests amplia, verificacion completa y cobertura minima configurada.
+- ⚡ API principal con `FastAPI` y documentacion en `/docs`.
+- 🛠️ Agente con bucle de tool calling de hasta 10 iteraciones por peticion.
+- 📄 Subida y lectura de PDFs desde la interfaz web.
+- 📡 Monitor de logs separado en tiempo real con WebSocket, filtros, busqueda y limpieza.
+- 🔌 Cliente LLM unificado usando el SDK de OpenAI contra endpoints compatibles.
+- 🧪 Suite de tests amplia, verificacion completa y cobertura minima configurada.
 
 **Stack:** `Python` | `FastAPI` | `Uvicorn` | `OpenAI SDK` | `pypdf` | `pytest` | `pytest-cov` | `WebSocket` | `JavaScript` | `HTML` | `CSS`
 
@@ -42,7 +40,7 @@ workspace/       Archivos del agente y PDFs subidos
 
 ---
 
-### [CancunIA](https://github.com/Adri211x/CancunIA)
+### 🌴 [CancunIA](https://github.com/Adri211x/CancunIA)
 
 Asistente turistico con IA generativa y RAG especializado en Cancun, Riviera Maya, Isla Mujeres, Tulum, Chichen Itza, Cozumel, cenotes, transporte, gastronomia, rutas e itinerarios.
 
@@ -52,13 +50,12 @@ Convierte un corpus Markdown en una fuente de verdad consultable por un chatbot.
 
 **Puntos fuertes**
 
-- Backend `FastAPI` con endpoints de salud, configuracion, estado LLM, ingesta, retrieval, chat y borrado de vector store.
-- RAG con `ChromaDB`, embeddings y chunks enriquecidos con URL, dominio, categoria, ubicacion, seccion, fiabilidad y prioridad.
-- Frontend de chatbot con `Streamlit`.
-- Soporte para Groq + Llama y proveedores OpenAI-compatible como Ollama, LM Studio o vLLM.
-- Scripts de setup, descarga de embeddings, ingesta, evaluacion y limpieza.
-- Arranque portable en Windows con `start.bat` y entorno aislado con `uv`.
-- Monitor de logs local y tests para API, chatbot, chunker, cleaner, loader, retriever, vector store, config y clientes LLM.
+- ⚡ Backend `FastAPI` con endpoints de salud, configuracion, estado LLM, ingesta, retrieval, chat y borrado de vector store.
+- 🔎 RAG con `ChromaDB`, embeddings y chunks enriquecidos con URL, dominio, categoria, ubicacion, seccion, fiabilidad y prioridad.
+- 💬 Frontend de chatbot con `Streamlit`.
+- 🤖 Soporte para Groq + Llama y proveedores OpenAI-compatible como Ollama, LM Studio o vLLM.
+- 🧰 Scripts de setup, descarga de embeddings, ingesta, evaluacion y limpieza.
+- 🧪 Monitor de logs local y tests para API, chatbot, chunker, cleaner, loader, retriever, vector store, config y clientes LLM.
 
 **Stack:** `Python` | `FastAPI` | `Streamlit` | `ChromaDB` | `SentenceTransformers` | `Groq` | `Llama` | `Ollama` | `pytest` | `PowerShell` | `Dockerfile`
 
@@ -70,20 +67,20 @@ scripts/    Ingesta, evaluacion y utilidades
 tests/      Cobertura funcional del sistema
 ```
 
-## Lo que estoy construyendo
+## Lo que estoy construyendo 🧩
 
-- Agentes LLM con herramientas reales y control de ejecucion.
-- Sistemas RAG basados en fuentes controladas.
-- APIs locales faciles de probar y documentar.
-- Interfaces ligeras para interactuar con IA sin complicar el flujo.
-- Observabilidad para entender que hace el agente, que herramientas usa y donde falla.
-- Tests y scripts de verificacion para que los prototipos sean reproducibles.
+- 🤖 Agentes LLM con herramientas reales y control de ejecucion.
+- 🔎 Sistemas RAG basados en fuentes controladas.
+- ⚙️ APIs locales faciles de probar y documentar.
+- 🖥️ Interfaces ligeras para interactuar con IA sin complicar el flujo.
+- 📊 Observabilidad para entender que hace el agente, que herramientas usa y donde falla.
+- 🧪 Tests y scripts de verificacion para que los prototipos sean reproducibles.
 
-## Tecnologias que uso
+## Tecnologias que uso 🛠️
 
 `Python` | `FastAPI` | `Streamlit` | `OpenAI SDK` | `Groq` | `Ollama` | `ChromaDB` | `SentenceTransformers` | `pypdf` | `pytest` | `pytest-cov` | `JavaScript` | `HTML` | `CSS` | `PowerShell` | `Docker`
 
-## Perfil tecnico
+## Perfil tecnico ✨
 
 Me interesa la IA practica: no solo llamar a un modelo, sino rodearlo de contexto, herramientas, logs, evaluacion y una interfaz usable. En mis proyectos suelo cuidar tres cosas:
 
@@ -91,7 +88,7 @@ Me interesa la IA practica: no solo llamar a un modelo, sino rodearlo de context
 - Que se pueda levantar localmente sin friccion.
 - Que el comportamiento sea observable y testeable.
 
-## GitHub
+## GitHub 📌
 
 - Perfil: [github.com/Adri211x](https://github.com/Adri211x)
 - Proyecto principal de agentes: [llm-agent-workbench](https://github.com/Adri211x/llm-agent-workbench)
