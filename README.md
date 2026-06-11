@@ -88,10 +88,12 @@ Me interesa la IA practica: no solo llamar a un modelo, sino rodearlo de context
 - Que se pueda levantar localmente sin friccion.
 - Que el comportamiento sea observable y testeable.
 
-## GitHub 📌
+## Contacto 📌
 
 - Perfil: [github.com/Adri211x](https://github.com/Adri211x)
 - Proyecto principal de agentes: [llm-agent-workbench](https://github.com/Adri211x/llm-agent-workbench)
 - Proyecto RAG turistico: [CancunIA](https://github.com/Adri211x/CancunIA)
+- Email: [adrianramolopez7@gmail.com](mailto:adrianramolopez7@gmail.com)
+- LinkedIn: [Adrian Ramo Lopez](https://www.linkedin.com/in/adri%C3%A1n-ramo-l%C3%B3pez-297a18261/)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Adri211x&layout=compact&theme=transparent)
